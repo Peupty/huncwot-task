@@ -1,0 +1,14 @@
+{
+  "name": "huncwot-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve src/index.html --port=8000"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0",
+    "sass": "^1.41.1"
+  }
+}
