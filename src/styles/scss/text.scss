@@ -1,21 +1,21 @@
 .text {
-  font-size: 1.0625rem;
-  line-height: 1.64;
-  font-weight: 500;
   max-width: 41rem;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  line-height: 1.64;
   text-justify: auto;
   text-align: start;
   color: $gray-2;
 
   &--letter {
     display: inline-block;
-    font-size: 6rem;
+    float: left;
     height: 2rem;
+    margin-right: 1rem;
+    font-size: 6rem;
     font-weight: 700;
     line-height: 4.5rem;
-    float: left;
     color: $red;
-    margin-right: 1rem;
   }
 
   &--centered {
