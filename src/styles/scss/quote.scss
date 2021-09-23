@@ -1,0 +1,49 @@
+.quote {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 7.125rem;
+  justify-content: center;
+  padding-right: 3.5rem;
+  position: relative;
+
+  &__image {
+    height: 19.1875rem;
+    width: auto;
+    margin-left: -3rem;
+    margin-right: 2rem;
+  }
+
+  &__mark {
+    height: 1.125rem;
+    margin-right: auto;
+    margin-bottom: 0.675rem;
+  }
+
+  &__text {
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    color: $red-2;
+    margin-bottom: 1.375rem;
+    width: 22.5rem;
+  }
+
+  &__author {
+    width: 22.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $gray;
+    margin-bottom: 3.25rem;
+  }
+
+  &__line {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 47rem;
+    height: 0.125rem;
+    background-color: $red;
+    margin-top: 2rem;
+  }
+}
