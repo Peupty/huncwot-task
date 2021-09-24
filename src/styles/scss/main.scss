@@ -26,6 +26,7 @@ body {
 @import "slider.scss";
 @import "wrapper.scss";
 @import "section.scss";
+@import "spacings.scss";
 
 .main {
   max-width: 100vw;
@@ -36,32 +37,4 @@ body {
   height: 0.25rem;
   background-color: $red;
   margin: 1.25rem auto;
-}
-
-#section-2 {
-  .wrapper {
-    &:nth-of-type(1) {
-      padding-top: 7.5rem;
-    }
-
-    &:nth-of-type(3) {
-      margin-bottom: 7.125rem;
-      align-items: flex-start;
-
-      .text {
-        width: 40rem;
-      }
-    }
-  }
-
-  .text--letter {
-    margin-bottom: 2.5rem;
-  }
-}
-
-#section-3 {
-  .wrapper--text {
-    padding-top: 4rem;
-    width: 40rem;
-  }
 }
