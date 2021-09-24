@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 41rem;
+
+  &--hero {
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  &--quote {
+    margin-top: 3.875rem;
+  }
+
+  &--slider {
+    width: 57.5rem;
+  }
+}
