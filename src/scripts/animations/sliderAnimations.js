@@ -1,5 +1,5 @@
 import { gsap } from "gsap"
-import { createDelay } from "./utils/delay"
+import { createDelay } from "../utils/delay"
 
 // selects and returns "onLeave" and "onEnter" functions
 // based on the direction of the slider

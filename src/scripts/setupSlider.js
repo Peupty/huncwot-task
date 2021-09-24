@@ -1,5 +1,5 @@
 import { Slider } from "./Slider"
-import { createSliderAnimations } from "./sliderAnimations"
+import { createSliderAnimations } from "./animations/sliderAnimations"
 
 const setupSlider = async () => {
   "useStrict"
