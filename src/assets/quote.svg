@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 36" width="44" height="36">
+	<title>Desktop FULL</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #da393e } 
+	</style>
+	<g id="Desktop FULL">
+		<g id="02">
+			<path id="quote" class="shp0" d="M11.01 16.8C11.91 13.38 14.22 9.82 17.92 6.12L11.01 0.47C7.17 4.31 4.43 8.04 2.79 11.67C1.15 15.3 0.33 19.35 0.33 23.81L0.33 35.85L19.7 35.85L19.7 16.8L11.01 16.8ZM34.35 16.8C35.26 13.38 37.56 9.82 41.26 6.12L34.35 0.47C30.51 4.31 27.77 8.04 26.13 11.67C24.49 15.3 23.67 19.35 23.67 23.81L23.67 35.85L43.04 35.85L43.04 16.8L34.35 16.8Z" />
+		</g>
+	</g>
+</svg>
