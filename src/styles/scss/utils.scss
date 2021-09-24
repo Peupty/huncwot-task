@@ -1,0 +1,25 @@
+@mixin width($cols, $gutters, $extra: 0) {
+  width: $cols * $col-unit + $gutters * $gutter-unit + $extra;
+}
+
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.relative {
+  position: relative;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.j-sb {
+  justify-content: space-between;
+}

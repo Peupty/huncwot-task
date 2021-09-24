@@ -2,17 +2,6 @@ $unit: 1rem;
 $gutter-unit: 2.5 * $unit;
 $col-unit: 2 * $gutter-unit;
 
-@mixin width($cols, $gutters, $extra: 0) {
-  width: $cols * $col-unit + $gutters * $gutter-unit + $extra;
-}
-
-@import "colors.scss";
-@import "fonts.scss";
-@import "text.scss";
-@import "hero.scss";
-@import "quote.scss";
-@import "slider.scss";
-
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +12,17 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
+body {
+  display: none;
+}
+
+@import "colors.scss";
+@import "fonts.scss";
+@import "text.scss";
+@import "hero.scss";
+@import "quote.scss";
+@import "slider.scss";
 
 .main {
   max-width: 100vw;
@@ -102,26 +102,4 @@ html {
     padding-top: 4rem;
     width: 40rem;
   }
-}
-
-.f-col {
-  display: flex;
-  flex-direction: column;
-}
-
-.f-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.relative {
-  position: relative;
-}
-
-.w-100 {
-  width: 100%;
-}
-
-.j-sb {
-  justify-content: space-between;
 }
